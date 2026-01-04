@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Mirror
+Comment=Ver pantalla de mi Android antiguo
+Exec=/home/medalcode/Antigravity/Miru/scripts/android_mirror.sh
+Icon=phone
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true
