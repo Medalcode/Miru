@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Debug (Errores)
+Comment=Ver log de errores y crashes en tiempo real
+Exec=/home/medalcode/Antigravity/Miru/scripts/android_logcat.sh
+Icon=utilities-terminal
+Terminal=true
+Categories=Development;Utility;
+StartupNotify=true

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Reset (Reinicio)
+Comment=Reinicia el móvil o arregla la conexión ADB
+Exec=/home/medalcode/Antigravity/Miru/scripts/android_reboot.sh
+Icon=system-reboot
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true

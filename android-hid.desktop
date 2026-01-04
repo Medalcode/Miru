@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Type (Teclado)
+Comment=Usar teclado de PC en Android (Modo HID)
+Exec=/home/medalcode/Antigravity/Miru/scripts/android_mirror.sh hid
+Icon=input-keyboard
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true

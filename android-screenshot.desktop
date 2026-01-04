@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Android Snap (Foto)
+Comment=Tomar captura de pantalla instantánea
+Exec=/home/medalcode/Antigravity/Miru/scripts/android_screenshot.sh
+Icon=camera-photo
+Terminal=false
+Categories=Development;Utility;
+StartupNotify=true
