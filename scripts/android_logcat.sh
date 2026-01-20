@@ -6,7 +6,7 @@ echo "🔍 === Android Error Monitor (Logcat) === 🔍"
 echo "Esperando dispositivo..."
 echo "(Conecta tu móvil USB)"
 
-adb wait-for-device
+adb $MIRU_ADB_DEVICE wait-for-device
 
 echo "✅ Dispositivo conectado."
 echo "-----------------------------------------------------"
@@ -18,4 +18,4 @@ echo "-----------------------------------------------------"
 # -v color: Colorea la salida para mejorar legibilidad
 # *:E : Muestra SOLO Errores y Fatal (Ignora Info/Debug que meten ruido)
 # Si quisieras ver todo, cambia *:E por *:V
-adb logcat -v color *:E
+adb $MIRU_ADB_DEVICE logcat -v color *:E

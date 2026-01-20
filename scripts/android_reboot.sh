@@ -13,7 +13,7 @@ if [ -n "$DEVICES" ]; then
     if command -v notify-send &> /dev/null; then
         notify-send "Android Reset" "Reiniciando el teléfono..." --icon=system-reboot
     fi
-    adb reboot
+    adb $MIRU_ADB_DEVICE reboot
 else
     # CASO 2: No hay dispositivo -> Reiniciar el Servidor ADB (Arregla bugs de conexión)
     if command -v notify-send &> /dev/null; then

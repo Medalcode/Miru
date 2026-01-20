@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Miru
+Comment=Android Development Suite - Aplicación Nativa
+Exec=/home/medalcode/Documentos/GitHub/Miru/start-app.sh
+Icon=phone
+Terminal=false
+Categories=Development;Utility;
+Keywords=android;adb;scrcpy;mirror;debug;

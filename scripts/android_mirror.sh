@@ -19,8 +19,8 @@ if ! command -v scrcpy &> /dev/null; then
     fi
 fi
 
-# Esperar conexión
-adb wait-for-device
+# Esperar conexión usando el selector específico
+adb $MIRU_ADB_DEVICE wait-for-device
 
 if [ $? -eq 0 ]; then
     TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)

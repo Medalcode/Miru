@@ -15,7 +15,8 @@ if command -v notify-send &> /dev/null; then
 fi
 
 # Comando mágico: adb exec-out screencap -p descarga la imagen directamente al pipe, sin guardarla en el móvil primero
-adb exec-out screencap -p > "$FILENAME"
+# Se usa MIRU_ADB_DEVICE para evitar conflictos con múltiples dispositivos
+adb $MIRU_ADB_DEVICE exec-out screencap -p > "$FILENAME"
 
 if [ $? -eq 0 ]; then
     if command -v notify-send &> /dev/null; then
