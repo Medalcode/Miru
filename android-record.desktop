@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Android Record (Grabar)
-Comment=Grabar pantalla del Android mientras se visualiza
-Exec=/home/medalcode/Antigravity/Miru/scripts/android_mirror.sh record
-Icon=media-record
-Terminal=false
-Categories=Development;Utility;
-StartupNotify=true

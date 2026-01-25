@@ -64,7 +64,11 @@ Si tu dispositivo no aparece o dice "offline", hemos incluido herramientas autom
 
 ## 📂 Estructura del Proyecto
 
-- `miru-app.py`: El corazón de la aplicación nativa (GTK3).
+- `miru/`: Paquete principal con la nueva arquitectura modular.
+  - `core/`: Lógica de negocio (ADB, Configuración).
+  - `ui/`: Interfaz gráfica GTK.
+  - `plugins/`: Implementaciones de las herramientas.
+- `miru-app.py`: Utilidad de lanzamiento.
 - `scripts/`: Lógica interna en Bash optimizada.
 - `start-app.sh`: Lanzador inteligente con verificación de dependencias.
 - `miru-app.desktop`: Integración para el menú de aplicaciones de Linux.
